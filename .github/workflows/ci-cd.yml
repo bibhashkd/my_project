@@ -3,11 +3,11 @@ name: Java CI/CD Pipeline
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: DESKTOP-DFV9JQR 
 
     steps:
       - name: Checkout code
